@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+ <style type="text/css">
+	div{
+		
+		color: white;
+	   }
+	   table{
+		  
+		   border-color: white;
+		   }
+        body{
+			 background-color:rgb(6, 2, 23);
+		   background-size: cover;
+		   background-repeat: no-repeat;
+		   height: 100vh;
+		   background-position: center;
+		   background-image:url(images/modify.png);
+	 }
+	 @media (max-width: 400px) 
+	 	 {
+            body {
+                background-size: cover;
+                background-attachment: fixed;
+                padding: 10px;
+            }
+
+            div {
+                width: 95%;
+                max-width: 350px;
+                padding: 20px;
+            }
+
+            h1 {
+                font-size:18px;
+            }
+
+            a {
+                font-size: 14px;
+                padding: 8px;
+            }
+        }
+	 </style>
+</head>
+<body>
+<center>
+	<div>
+		<h2><u><i>Enter product details</i></u> </h2>
+		<h3>
+			<table  cellspacing="10" cellpadding="10" >
+		<form action="aps" method="post">
+			<tr>
+				<td>product Code :</td><td> <input type="text" name="pcode"> </td>
+			</tr>
+			<tr>
+				<td>product Name :</td><td>	<input type="text" name="pname"></td>
+			</tr>
+			<tr>
+				<td>product Company :</td><td> <input type="text" name="pcompany"></td>
+			</tr>
+			<tr>
+				<td>product price :</td><td> <input type="text" name="pprice"></td>
+			</tr>
+			<tr>
+				<td>product Quantity :</td><td> <input type="text" name="pqnty"></td>
+			</tr>
+			<tr>
+				<th colspan="2"><input type="submit" value="submit"></th>
+			</tr>
+	
+		</form>
+			</table>
+		
+	</h3>
+	</div>
+</center>
+
+
+</body>
+</html>
